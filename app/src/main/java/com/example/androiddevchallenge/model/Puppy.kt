@@ -7,6 +7,7 @@ data class Puppy(
     val name: String,
     val gender: Gender,
     val age: String,
+    val description: String,
 
     @DrawableRes
     val photo: Int
